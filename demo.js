@@ -62,28 +62,22 @@ window.onload=function() {
         },
         "assign": function(){
             getId("assign").onclick = function () {
-                alert("ËäÈ»Äãµã»÷ÁËÎÒ£¬µ«ÊÇÎÒÕæµÄÎŞÄÜÎªÁ¦£¬»¹ÊÇ·µ»Ø¿´¿´±ğµÄ°É")
+                alert("è™½ç„¶ä½ ç‚¹å‡»äº†æˆ‘ï¼Œä½†æ˜¯æˆ‘çœŸçš„æ— èƒ½ä¸ºåŠ›ï¼Œè¿˜æ˜¯è¿”å›çœ‹çœ‹åˆ«çš„å§")
             }
         },
         "input": function () {
             getId("input").onclick = function () {
-                if (this.value == "ÇëÊäÈëÊÖ»úºÅ") {
+                if (this.value == "è¯·è¾“å…¥æ‰‹æœºå·") {
                     this.value =" "
                 }
             }
         }
     };
-my.click();//µã»÷³öÏÖÏÂÀ­À¸
-my.appoclick();//µã»÷³öÏÖÊÖ»úÔ¤Ô¼
-my.away();//È¡Ïû°´Å¥
-my.assign();//È·ÈÏ°´Å¥
-my.input();//ÊäÈë¿ò »ñÈ¡½¹µãÈ¡ÏûÄ¬ÈÏÎÄ×Ö
+my.click();//ç‚¹å‡»å‡ºç°ä¸‹æ‹‰æ 
+my.appoclick();//ç‚¹å‡»å‡ºç°æ‰‹æœºé¢„çº¦
+my.away();//å–æ¶ˆæŒ‰é’®
+my.assign();//ç¡®è®¤æŒ‰é’®
+my.input();//è¾“å…¥æ¡† è·å–ç„¦ç‚¹å–æ¶ˆé»˜è®¤æ–‡å­—
 };
-
-
-
-
-
-
 
 
